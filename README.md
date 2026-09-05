@@ -1,16 +1,26 @@
-## Hi there 👋
+# 안녕하세요, jeakeun 입니다 👋
 
-<!--
-**jeakeun/jeakeun** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+AI 전환(AX) 분야로 커리어를 준비하며, 일상과 업무를 AI로 자동화하는 프로젝트를 만들고 있습니다.
+코드를 직접 짜기보다 **Claude Code와 함께 설계하고 운영하는 방식**으로, 매일 스스로 돌아가는 파이프라인을 만드는 데 집중합니다.
 
-Here are some ideas to get you started:
+## 🛠 지금 돌아가고 있는 것들
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+| 프로젝트 | 한 줄 소개 |
+|---|---|
+| 🎬 **1분호기심** 유튜브 자동화 | 트렌드 분석 → AI 대본 → 영상 렌더링 → 자동 업로드까지 매일 2편. 주간 회고로 전략을 스스로 수정 |
+| 🏠 **집가(ZipGa)** 마케팅 자동화 | 팀 프로젝트 앱 출시 마케팅. 로컬 GPU(ComfyUI)로 영상 생성, 5개 채널 원클릭 발행 |
+| 📰 **AI데일리** | 매일 아침 AX 채용공고와 AI 논문·뉴스를 수집해 쉬운 한글 리포트로 정리 |
+| 🪙 **코인 모의투자 봇** | 10분 주기 전략 매매 + 일일·주간 회고. 가상 자금으로 전략 검증 중 |
+| 🐱 **몽글이** 버추얼 스트리머 | 웹캠 트래킹으로 움직이는 고양이 캐릭터, OBS 송출용 |
+
+## 🧰 주로 쓰는 것
+
+`Python` · `Claude Code` · `YouTube Data API` · `Meta Graph API` · `ffmpeg` · `edge-tts` · `ComfyUI` · `Windows Task Scheduler`
+
+## 🎯 관심 분야
+
+Vision AI · LLM 활용과 파인튜닝 · AI 에이전트 · 업무 자동화
+
+---
+
+📺 [1분호기심 채널](https://www.youtube.com/channel/UCQVL7FSlbK2p6AWxx9EfdUA)
