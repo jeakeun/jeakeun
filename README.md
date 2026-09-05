@@ -13,6 +13,18 @@ AI 전환(AX) 분야로 커리어를 준비하며, 일상과 업무를 AI로 자
 | 🪙 **코인 모의투자 봇** | 10분 주기 전략 매매 + 일일·주간 회고. 가상 자금으로 전략 검증 중 |
 | 🐱 **몽글이** 버추얼 스트리머 | 웹캠 트래킹으로 움직이는 고양이 캐릭터, OBS 송출용 |
 
+→ 코드와 운영 기록: [jeakeun/show](https://github.com/jeakeun/show)
+
+## 🤝 팀 프로젝트 (1DAN-2ZO)
+
+| 저장소 | 한 줄 소개 |
+|---|---|
+| [ZipGa_Frontend](https://github.com/1DAN-2ZO/ZipGa_Frontend) | 링크·QR로 모여 미니게임을 하고, 점수가 낮으면 카카오T가 뜨는 웹앱 「집 가」 ([사이트](https://zip-ga-frontend.vercel.app/)) |
+| [ZipGa_Backend](https://github.com/1DAN-2ZO/ZipGa_Backend) | 집 가 백엔드. 서버 언어 없이 Supabase Postgres + RLS + RPC 만으로 구성 |
+| [stage-scout](https://github.com/1DAN-2ZO/stage-scout) | 네이버 지도 데이터와 현장 사진으로 공연 장소를 고르고 무대·관객 배치도를 설계하는 시스템 |
+
+이 팀에서 저는 마케팅 자동화 파트를 맡고 있습니다.
+
 ## 🧰 주로 쓰는 것
 
 `Python` · `Claude Code` · `YouTube Data API` · `Meta Graph API` · `ffmpeg` · `edge-tts` · `ComfyUI` · `Windows Task Scheduler`
