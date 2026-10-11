@@ -1,13 +1,30 @@
 # 안녕하세요, 심재근입니다 👋
 
-> 마지막 갱신: 2026-10-05
+> 마지막 갱신: 2026-10-11
 
-AI 전환(AX) 분야로 커리어를 준비하며, 일상과 업무를 AI로 자동화하는 프로젝트를 만들고 있습니다.
-코드를 직접 짜기보다 **Claude Code와 함께 설계하고 운영하는 방식**으로, 매일 스스로 돌아가는 파이프라인을 만드는 데 집중합니다.
+**AI 기능을 직접 구현하고, 그것이 매일 사람 없이 돌아가게 만드는 일**을 합니다.
+알고리즘·웹·이미지 생성·자동화 운영까지 한 흐름으로 다루며, 만든 뒤 지표로 검증하고 고치는 데까지가 제 일이라고 생각합니다.
 
-## 🎬 유튜브·자동화 4종 (개인 프로젝트)
+## 🧩 할 수 있는 일
 
-전부 메인 PC의 윈도우 작업 스케줄러에서 매일 자동으로 돌아갑니다. 개요와 운영 기록은 [jeakeun/show](https://github.com/jeakeun/show)에 있습니다.
+| 분야 | 실제로 한 일 |
+|---|---|
+| **AI 기능 구현** | KNN 기반 식단 추천 알고리즘 설계·고도화, **MediaPipe 실시간 자세 분석**(웹캠 관절 좌표 추출) |
+| **이미지 생성** | **FLUX**(ComfyUI · 로컬 GPU) — 레퍼런스 이미지를 임베딩으로 넣어 원하는 사진을 입히는 방식을 구성. 외부 생성 API 비용 0원 |
+| **웹 개발** | Java · Spring Boot 백엔드, React · Axios 프론트, RESTful API 설계·연동 |
+| **자동화 파이프라인** | 유튜브 매일 2편 무인 발행, 채용공고·논문 일일 수집, 코인 모의매매 — 전부 작업 스케줄러로 무인 운영 |
+| **규칙·가드 설계** | 정책 위반 표현 사후검사 후 자동 재생성, 정보통신망법·카카오 정책을 코드로 검사(Guard R01~R12) |
+| **데이터 · 대시보드** | SQLite 허브에 매일 밤 통계 적재, KPI·추이 대시보드 자체 제작 |
+| **미디어 처리** | ffmpeg 9:16 크롭·합성·음량 정규화, 단어 단위 자막 생성, edge-tts 내레이션 |
+| **게임 개발** | Unity · C# 2D/3D UI 및 게임 로직 수정·추가 (코드리치 인턴) |
+
+**운영 원칙** — 자동화를 수집 / 규칙 / 분석 / 실행 네 칸으로 나누고, 분석 AI는 제안만 합니다.
+되돌릴 수 있는 변경은 자동 적용 후 보고하고, 돈·정책처럼 사람이 정할 것은 선택지로 올립니다.
+
+## 🎬 개인 프로젝트
+
+전부 메인 PC의 윈도우 작업 스케줄러에서 매일 자동으로 돌아갑니다.
+개요와 운영 기록은 [jeakeun/show](https://github.com/jeakeun/show)에 있습니다.
 
 | 프로젝트 | 한 줄 소개 | 상태 |
 |---|---|---|
@@ -16,33 +33,37 @@ AI 전환(AX) 분야로 커리어를 준비하며, 일상과 업무를 AI로 자
 | 🪙 **코인 모의투자 봇** | 가상 자금으로 10분 주기 전략 매매 + 일일·주간 회고. 손절·한도 등 안전장치를 코드로 강제 | 모의투자 검증 중 |
 | 💬 **market-compass** | 정보통신망법·카카오 정책 검사를 코드로 내장한 카카오 마케팅 메시지 에이전트 (Radar / Guard / Dispatch) | 개발 중 |
 
-**운영 원칙**: 자동화를 수집 / 규칙 / 분석 / 실행 네 칸으로 나누고, 분석 AI는 제안만 합니다. 되돌릴 수 있는 변경은 자동 적용 후 보고하고, 돈·정책처럼 사람이 정할 것은 선택지로 올립니다. 대시보드 하나에서 유튜브·채용·코인·감사 결과를 함께 봅니다.
+## 🍽 냠냠플래닛 (YummyPlanet) — 팀 프로젝트
+
+AI 식단 관리 웹 서비스입니다. React + Spring Boot(MyBatis · MySQL) + FastAPI(Gemini) 구성.
+
+- **AI 식단 추천 알고리즘**: KNN이 칼로리 수치만 맞춰 조리되지 않은 재료를 추천하던 문제를,
+  분류명 기반 카테고리 필터링과 목표 칼로리에 맞춘 섭취량(g) 자동 분배로 해결 → 밥·국·메인·반찬이 갖춰진 한 끼 출력
+- **실시간 자세 분석**: MediaPipe로 웹캠 관절 좌표를 추출하고, 프레임 단위 상태 관리를 최적화해 렌더링 지연 없이 피드백
+- 팀 원본: [YH-KIKI/YummyPlanet](https://github.com/YH-KIKI/YummyPlanet) · 제 포크: [jeakeun/project](https://github.com/jeakeun/project)
+- 서버 오류와 전체 코드를 직접 손보려고 2026-10에 독립 복사본을 만들어 정비하고 있습니다.
 
 ## 🏠 집가 (ZipGa) — 팀 1단2조
 
-링크·QR로 모여 미니게임을 하고, 점수가 낮으면 "집 가" 하고 카카오T가 뜨는 웹앱입니다. 6인 팀에서 저는 **마케팅 자동화 파트**를 맡았습니다. → [사이트](https://zip-ga-frontend.vercel.app/)
+링크·QR로 모여 미니게임을 하고, 점수가 낮으면 "집 가" 하고 카카오T가 뜨는 웹앱입니다.
+6인 팀에서 저는 **마케팅 자동화 파트**를 맡아, 영상 생성부터 5개 채널 발행까지를 하나의 파이프라인으로 만들었습니다.
+→ [사이트](https://zip-ga-frontend.vercel.app/)
 
 | 저장소 | 한 줄 소개 |
 |---|---|
 | [ZipGa_Frontend](https://github.com/1DAN-2ZO/ZipGa_Frontend) | 집 가 웹앱 프런트엔드 |
 | [ZipGa_Backend](https://github.com/1DAN-2ZO/ZipGa_Backend) | 서버 언어 없이 Supabase Postgres + RLS + RPC 만으로 구성한 백엔드 |
-| [show/zipga-marketing](https://github.com/jeakeun/show/tree/main/zipga-marketing) | 제가 만든 마케팅 자동화. 로컬 GPU(ComfyUI)로 영상 생성 → 문구 생성 → 유튜브·인스타·쓰레드 등 5개 채널 원클릭 발행 |
+| [show/zipga-marketing](https://github.com/jeakeun/show/tree/main/zipga-marketing) | 제가 만든 마케팅 자동화. 로컬 GPU(ComfyUI · FLUX)로 영상·이미지 생성 → 문구 생성 → 5개 채널 원클릭 발행 |
 
 ## 🤝 1단2조 (1DAN-2ZO)
 
 집가를 함께 만든 팀 조직입니다 → [github.com/1DAN-2ZO](https://github.com/1DAN-2ZO)
-집가 출시 마케팅 1차를 마쳤고, 지금은 다음 팀 프로젝트 **nudy**를 진행하고 있습니다. 저는 계속 마케팅·자동화를 담당합니다.
-
-## 🍽 냠냠플래닛 (YummyPlanet) — 팀 프로젝트
-
-AI 식단 관리 웹 서비스입니다. React + Spring Boot(MyBatis·MySQL) + FastAPI(Gemini) 구성입니다.
-
-- 팀 원본: [YH-KIKI/YummyPlanet](https://github.com/YH-KIKI/YummyPlanet) · 제 포크: [jeakeun/project](https://github.com/jeakeun/project)
-- 서버 오류와 전체 코드를 직접 손보려고 2026-10에 독립 복사본을 만들어 정비하고 있습니다.
+집가 출시 마케팅 1차를 마쳤고, 지금은 다음 팀 프로젝트 **nudy**를 진행하고 있습니다.
 
 ## 🧰 주로 쓰는 것
 
-`Python` · `Claude Code` · `YouTube Data API` · `Meta Graph API` · `ffmpeg` · `edge-tts` · `ComfyUI` · `SQLite` · `Windows Task Scheduler`
+`Java` · `Spring Boot` · `React` · `Python` · `Claude Code` · `FLUX / ComfyUI` · `MediaPipe` ·
+`YouTube Data API` · `Meta Graph API` · `ffmpeg` · `edge-tts` · `SQLite` · `Unity / C#` · `Windows Task Scheduler`
 
 ## 🎯 관심 분야
 
