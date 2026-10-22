@@ -1,10 +1,14 @@
 # 안녕하세요, 심재근입니다 👋
 
-> 마지막 갱신: 2026-10-15
+> 마지막 갱신: 2026-10-22 (과정 수료·이력서 링크 추가) (이전 2026-10-15)
 
 **AI 기능을 직접 구현하고, 그것이 매일 사람 없이 돌아가게 만드는 일**을 합니다.
 알고리즘·웹·이미지 생성·자동화 운영·마케팅까지 한 흐름으로 다루며,
 만든 뒤 지표로 검증하고 고치는 데까지가 제 일이라고 생각합니다.
+
+**지금** — `심화_생성형 AI 활용 인재양성과정` 수료 (2026.08 – 2026.10).
+AI 서비스 개발 · 백엔드 직무로 구직 중이며, 아래 자동화들은 지금도 매일 돌아가고 있습니다.
+📄 **[이력서 보기](https://github.com/jeakeun/show/tree/main/docs/이력서)**
 
 ## 🧩 할 수 있는 일
 
@@ -17,7 +21,7 @@
 | **자동화 파이프라인** | 유튜브 매일 2편 무인 발행, 채용공고·논문 일일 수집, 코인 모의매매 — 전부 작업 스케줄러로 무인 운영 |
 | **규칙 · 가드 설계** | 정책 위반 표현 사후검사 후 자동 재생성, 정보통신망법·카카오 정책을 코드로 검사(Guard R01~R12) |
 | **데이터 · 대시보드** | SQLite 허브에 매일 밤 통계 적재, KPI·추이 대시보드 자체 제작 |
-| **미디어 처리** | ffmpeg 9:16 크롭·합성·음량 정규화, 단어 단위 자막, edge-tts 내레이션 |
+| **미디어 처리** | FFmpeg 9:16 크롭·합성·음량 정규화, 단어 단위 자막, edge-tts 내레이션 |
 | **게임 개발** | Unity · C# 2D/3D UI 및 게임 로직 수정·추가 (코드리치 인턴) |
 
 ---
@@ -132,11 +136,22 @@ AI 식단 관리 웹 서비스입니다. React + Spring Boot(MyBatis · MySQL) +
 ## 🧰 주로 쓰는 것
 
 `Java` · `Spring Boot` · `React` · `Python` · `Claude Code` · `FLUX / ComfyUI` · `MediaPipe` ·
-`YouTube Data API` · `Meta Graph API` · `Threads API` · `ffmpeg` · `edge-tts` · `SQLite` · `Unity / C#` · `Windows Task Scheduler`
+`YouTube Data API` · `Meta Graph API` · `Threads API` · `FFmpeg` · `edge-tts` · `SQLite` · `Unity / C#` · `Windows Task Scheduler`
 
 ## 🎯 관심 분야
 
 Vision AI · LLM 활용과 파인튜닝 · AI 에이전트 · 업무 자동화 · 그로스 마케팅
+
+## 📄 이력서
+
+[show/docs/이력서](https://github.com/jeakeun/show/tree/main/docs/이력서)에 두 가지 배치로 정리해 두었습니다.
+브라우저로 열어 `Ctrl + P` → PDF로 저장하면 됩니다. (개인정보는 비워 둔 상태입니다)
+
+| 파일 | 설명 |
+|---|---|
+| `AX_심재근_이력서.html` | A안 — 왼쪽 라벨 정렬형 |
+| `AX_심재근_이력서_디자인.html` | B안 — 사진 왼쪽, 섹션 번호·영문 병기, 프로젝트 2단 구성 |
+| `자기소개서.md` | 성격 장단점 · 지원 동기 · 팀워크 · 입사 후 포부 |
 
 ---
 
