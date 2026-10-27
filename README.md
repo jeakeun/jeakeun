@@ -1,6 +1,6 @@
 # 안녕하세요, 심재근입니다 👋
 
-> 마지막 갱신: 2026-10-27 (nudy 마케팅 영상·채널 반영) (이전 2026-10-26 무인 운영 채널 수 정정)
+> 마지막 갱신: 2026-10-27 (이력서 링크 수정) (이전 2026-10-27 nudy 마케팅 영상·채널 반영)
 
 **AI 기능을 직접 구현하고, 그것이 매일 사람 없이 돌아가게 만드는 일**을 합니다.
 알고리즘·웹·이미지 생성·자동화 운영·마케팅까지 한 흐름으로 다루며,
@@ -8,7 +8,7 @@
 
 **지금** — `심화_생성형 AI 활용 인재양성과정` 수료 (2026.08 – 2026.10).
 AI 서비스 개발 · 백엔드 직무로 구직 중이며, 아래 자동화들은 지금도 매일 돌아가고 있습니다.
-📄 **[이력서 보기](https://github.com/jeakeun/show/tree/main/docs/이력서)**
+📄 **[이력서 보기](https://github.com/jeakeun/show/tree/claude/resume-writing-vf7yg1/docs/이력서)**
 
 ## 🧩 할 수 있는 일
 
@@ -148,7 +148,7 @@ Vision AI · LLM 활용과 파인튜닝 · AI 에이전트 · 업무 자동화 �
 
 ## 📄 이력서
 
-[show/docs/이력서](https://github.com/jeakeun/show/tree/main/docs/이력서)에 두 가지 배치로 정리해 두었습니다.
+[show/docs/이력서](https://github.com/jeakeun/show/tree/claude/resume-writing-vf7yg1/docs/이력서)에 두 가지 배치로 정리해 두었습니다.
 브라우저로 열어 `Ctrl + P` → PDF로 저장하면 됩니다. (개인정보는 비워 둔 상태입니다)
 
 | 파일 | 설명 |
